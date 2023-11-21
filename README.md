@@ -1,22 +1,24 @@
-#Migration Map
+# Migration Map
 
-##Description
+***
+
+## Description
 This website was created as part of the MITxPro course.
 
 This website uses the Mapbox API and Movebank API to map the migration movements of an albatross on a world map.
 
-##How to Run
+## How to Run
 This project may be loaded in a browser. However, the user should replace the Mapbox API and the Movebank API with their own APIs keys.
 
-##Roadmap of Future Improvements
+## Roadmap of Future Improvements
 I would love to add more animal migrations to the map.
 Leave a line on the map so you can see the paths each animal has taken.
 Add some UI for filtering different animals.
 
-##Support
+## Support
 For help with this guide, please contact brenna.langille@gmail.com
 
-##License
+## License
 
 The datasets generated and/or used for the making of this page are publicly available at Movebank (www.movebank.org) in the study on albatross movements (Movebank study ID [2911040]).”
 
