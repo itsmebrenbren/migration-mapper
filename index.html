@@ -9,16 +9,19 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id='map' style='width:1024px; height:768px'>
+    <div id='map' style='width:1024px; height:768px'></div>
 
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoiaXRzbWVicmVuYnJlbiIsImEiOiJjbHA4ZDNzYmYyNm93MnFvNDU0bTk3aDkyIn0.uGVEyxG4tYGsLBLJzexM8Q';
         const map = new mapboxgl.Map({
-        container: 'map', // container ID
-        style: 'mapbox://styles/itsmebrenbren/clp8es71c014p01qq3wqz7v19', // style URL
-        center: [-74.5, 40], // starting position [lng, lat]
-        zoom: 2, // starting zoom
+            container: 'map', // container ID
+            style: 'mapbox://styles/itsmebrenbren/clp8es71c014p01qq3wqz7v19', // style URL
+            center: [-74.5, 40], // starting position [lng, lat]
+            zoom: 2, // starting zoom
         });
-        </script>
+    </script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js'></script>
+    <script type="module" src="./mapanimation.js"></script>
+    <!-- Include your JavaScript file here -->
 </body>
 </html>

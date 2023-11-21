@@ -1,11 +1,13 @@
-const express = require('express');
+import express from 'express';
+
 const app = express();
 const port = process.env.PORT || 3000;
 
-app.use(express.static(__dirname));
+// If your static files (like index.html) are in a directory named 'public'
+app.use(express.static('.'));
 
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile(__dirname + '/index.html'); // Adjust the path according to your directory structure
 });
 
 app.listen(port, () => {
