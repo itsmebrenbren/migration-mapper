@@ -1,4 +1,4 @@
-# Migration Map
+# Migration Mapper (Real Time Bus Tracker)
 
 ***
 
@@ -11,9 +11,9 @@ This website uses the Mapbox API and Movebank API to map the migration movements
 This project may be loaded in a browser. However, the user should replace the Mapbox API and the Movebank API with their own APIs keys.
 
 ## Roadmap of Future Improvements
-I would love to add more animal migrations to the map.
-Leave a line on the map so you can see the paths each animal has taken.
-Add some UI for filtering different animals.
+- I would love to add more animal migrations to the map.
+- Leave a line on the map so you can see the paths each animal has taken.
+- Add some UI for filtering different animals.
 
 ## Support
 For help with this guide, please contact brenna.langille@gmail.com
